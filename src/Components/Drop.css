@@ -1,0 +1,665 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+
+}
+
+/* Navbar css  */
+
+.Name{
+    background-color: #06b4ee;
+    color: white;
+    font-size: 18px;
+    padding: 1px 10px;
+    border-radius: 50%;
+}
+.name{
+    color: #00a6eb;
+}
+
+.MainNavbar {
+    /* width: 100vw; */
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.log img {
+    height: 10vh;
+    width: 16vw;
+}
+
+.dopListing {
+    display: flex;
+    /* width: 100vw; */
+    background-color: white;
+    /* border-bottom: 2px solid red; */
+    box-shadow: 4px 0px 6px 2px grey;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logbtn {
+    border: 3px solid rgb(147, 4, 4);
+    padding: 2px 8px;
+    background: none;
+    border-radius: 8px;
+    width: 90px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.signbtn {
+    border: 3px solid rgb(147, 4, 4);
+    padding: 2px 8px;
+    background: lightpink;
+    border-radius: 8px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.myLInks {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 132px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Home Page basice CSS Are hear */
+/* .BigHome{
+    height: 100vw;
+    /* width: 90vw; */
+/* }  */
+
+/* .HomePage { */
+/* height: 100vh; */
+/* width: 100vw; */
+/* } */
+
+.HomeBox {
+    display: flex;
+    width: 98.2vw;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.HomeLeft {
+    width: 50vw;
+    padding-left: 5%;
+    /* padding-left: 30%; */
+}
+
+/* .MidHead{ */
+/* text-align: justify; */
+/* padding-left: 13%; */
+/* } */
+.HomeRight {
+    position: relative;
+    top: 30px;
+    width: 50vw;
+}
+
+.imgs {
+    min-height: 50%;
+    max-height: 80%;
+    /* min-width: 50%; */
+    max-width: 100%;
+}
+
+.firstHead {
+    width: 100%;
+    font-size: 2.6rem;
+    color: #f78077;
+    line-height: 1.4;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.secHead {
+    width: 100%;
+    font-size: 2.6rem;
+    line-height: 1.4;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.thHead {
+    line-height: 3.5;
+    font-size: 1.5rem;
+    color: #f78077;
+    font-weight: 500;
+    margin: 5px 0px;
+    text-align: justify;
+}
+
+.btn {
+    background: #06b4ee 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .1607843137254902);
+    width: 200px;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    padding: 13px;
+    position: absolute;
+    left: 75px;
+    border-radius: 5px;
+}
+
+.sponcers {
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+    padding: 0px 7%;
+    margin-top: 20px;
+}
+
+.sponcers img {
+    width: 130px;
+}
+
+/* // DownPage */
+.Message-icon {
+    background-color: #00a6eb;
+    border-radius: 34px 8px 34px 34px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 65px;
+    right: 90px;
+    /* padding: 5px 0px; */
+}
+
+.Message-icon img {
+    height: 50px;
+    width: 40px;
+    filter: invert(100%);
+    /* background-color: black; */
+}
+
+.down {
+    background: #00a6eb 0% 0% no-repeat padding-box;
+    color: #fff;
+    height: 2rem;
+    position: fixed;
+    width: 100vw;
+    bottom: 0px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Inter"; */
+    font-size: 1.1rem;
+    z-index: 8;
+}
+
+.down h4 {
+    padding: 0px 5px;
+}
+
+/* Register and Login page Css Start From Hear */
+.Register {
+    background: url('./img/blue-background.webp')no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top: 0px; */
+    /* left: 0px; */
+    height: 100vh;
+    width: 98.9vw;
+    /* opacity: 0.5; */
+    /* z-index: -1; */
+
+}
+
+.Register-Container {
+    display: flex;
+    width: 80vw;
+    margin: 0px auto;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.Register-Container-left {
+    display: flex;
+    justify-content: center;
+    width: 49.5vw;
+    height: 100vh;
+}
+
+/* .Register-Container-left div{ */
+/* width: 30vw; */
+/* } */
+
+.inforbox {
+    width: 15vw;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 40px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    text-align: center;
+    height: fit-content;
+}
+
+.imgge {
+    height: 75px;
+    position: relative;
+    top: -45px;
+}
+
+.Achivers {
+    position: relative;
+    top: -50px;
+    margin: 18px 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Achivers img {
+    width: auto !important;
+    height: 50px !important;
+}
+
+.Achivers div {
+    text-align: initial;
+    color: #423c3c;
+}
+
+.count {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -7px;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.Register-container-right {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1607843137254902);
+    border-radius: 10px;
+    margin: 35px 40px 13%;
+    padding: 0 10px;
+    background-color: #fffffe;
+}
+
+.Register-top {
+    position: relative;
+}
+
+.Register-container-link {
+    height: 75px;
+    background: #fff;
+    margin: 0 3%;
+    padding: 10px 9% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkOne {
+    width: 50%;
+    color: #4a8ce5;
+    font-weight: 600;
+    border-bottom: 1px solid #4a8ce5;
+    background: #fff;
+    text-align: center;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 19px
+}
+
+.linkOne:active {
+    border-bottom: 3px solid #4a8ce5;
+}
+
+.linkTwo {
+    width: 50%;
+    color: #4a8ce5;
+    font-weight: 600;
+    border-bottom: 1px solid #4a8ce5;
+    background: #fff;
+    text-align: center;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.linkTwo:active {
+    border-bottom: 3px solid #4a8ce5;
+}
+
+.one {
+    text-decoration: none;
+    /* color: #4b8ce8; */
+}
+
+.Register-form {
+    padding: 14px 50px 40px;
+}
+
+.form-cont-title {
+    text-align: center;
+}
+
+.form-title {
+    color: #767779;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-container {
+    /* webkit-box-orient: vertical; */
+    display: flex;
+    flex-direction: column;
+    -webkit-box-direction: normal;
+}
+
+input {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 0;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #edeff0;
+    color: #4c3f3f;
+    outline: none;
+}
+
+.coll-year {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.colleage {
+    width: 52%;
+    margin: auto auto auto 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input-div {
+    margin: 25px 0px;
+}
+
+select {
+    font-size: 16px;
+    width: 40%;
+    margin-top: 0;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #edeff0;
+    color: #4c3f3f;
+    outline: none;
+}
+
+.submiting {
+    background-color: #4b8ce8;
+    font-size: 16px;
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .1607843137254902);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.checkbox {
+    display: flex;
+    width: 100%;
+}
+
+.checkbox input {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.checkbox span {
+    color: #06b4ee;
+}
+
+/* mid page is sstarting */
+
+
+.Mid-Parent {
+    background: #f8fafa;
+    min-height: 1000px;
+    min-width: 50vw;
+    max-width: 99vw;
+}
+
+.Mid-Main {
+    padding: 80px 0 0;
+    margin: 0 auto;
+    display: flex;
+    min-height: 1440px;
+}
+
+.Mid-left {
+    width: 50%;
+}
+
+/* .left-img {
+    width: 80%;
+} */
+
+.Mid-right {
+    width: 50%;
+    padding-right: 144px;
+}
+
+.Mid-right-heading {
+    color: #424242;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* mid cards of right side start from heard */
+
+/* card One */
+.cardOne {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.card-left {
+    width: 45%;
+}
+
+.card-one-left-heading {
+    color: rgb(247, 128, 119);
+    font-size: 19px;
+    text-align: left;
+    width: 101%;
+}
+
+.card-right-arrow {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: -40px;
+}
+
+.box {
+    background: rgb(253, 240, 215);
+    border: 1px dashed rgb(247, 128, 119);
+    border-radius: 10px;
+}
+
+.box img {
+    /* margin-left: -30px; */
+    position: absolute;
+    top: 108px;
+    left: -19px;
+}
+
+.card-one-left-box-text {
+    color: rgb(247, 128, 119);
+    margin-left: 35px;
+    padding: 20px 0;
+    font-weight: 500;
+    width: 80%;
+    font-size: 20px;
+}
+
+/* Cards Two */
+.CardTwo {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.left-Part {
+    width: 50%;
+    position: absolute;
+    left: 10%;
+    /* left: 15%; */
+    bottom: 0;
+}
+
+.card-two-right {
+    width: 45%;
+}
+
+.card-two-right-heading {
+    color: rgb(253, 205, 6);
+    font-size: 19px;
+    text-align: left;
+    width: 90%;
+}
+
+.card-two-right-box img {
+    position: absolute;
+    top: 100px;
+    right: 290px;
+}
+
+.card-two-right-box p {
+    color: rgb(253, 205, 6);
+    margin-left: 20px;
+    padding: 20px 0;
+    font-weight: 500;
+    width: 80%;
+    font-size: 20px;
+}
+
+.card-two-right-box {
+    background: rgb(255, 249, 228);
+    border: 1px dashed rgb(253, 205, 6);
+    border-radius: 10px;
+}
+
+/* third box */
+.third-box {
+    background: rgb(228, 246, 241);
+    border: 1px dashed rgb(15, 181, 130);
+    border-radius: 10px;
+}
+
+.card-three-left-heading {
+    color: rgb(15, 181, 130);
+    font-size: 19px;
+    text-align: left;
+    width: 90%;
+}
+
+.card-three-left-box-text {
+    color: rgb(15, 181, 130);
+    margin-left: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    width: 80%;
+    font-size: 20px;
+}
+
+.third-box img {
+    position: absolute;
+    top: 106px;
+    left: -19px;
+}
+
+/* Fourth box */
+.card-four-right {
+    width: 45%;
+}
+
+.card-four-right-box {
+    background: rgb(255, 231, 237);
+    border: 1px dashed rgb(240, 119, 149);
+    border-radius: 10px;
+}
+
+.card-four-right-heading {
+    color: rgb(240, 119, 149);
+    font-size: 19px;
+    text-align: left;
+    width: 90%;
+}
+.card-four-right-box p {
+    color: rgb(240, 119, 149);
+    margin-left: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    width: 80%;
+    font-size: 20px;
+}
+.card-four-right-box img{
+    position: absolute;
+    top: 80px;
+    right: 290px;
+}
+/* location icon */
+.locat{
+    padding-left: 50px;
+}
