@@ -1,6 +1,6 @@
 import React from "react";
 import "./ScdH.css";
-import clgBy from "../img/standingboy stairs_of_approach(web).svg";
+// import clgBy from "../img/standingboy stairs_of_approach(web).svg";
 
 function ScdHome() {
   return (
