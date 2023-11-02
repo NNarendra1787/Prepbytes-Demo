@@ -58,7 +58,7 @@ function Register() {
   };
 
   const RegisterUser = async (clientData) => {
-    const url = "http://localhost:2002/user/reg";
+    const url = "https://prepbytesserverbackend.onrender.com/user/reg";
     const response = await axios.post(url, clientData);
     setresponseData(response.data);
 

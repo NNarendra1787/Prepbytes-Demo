@@ -29,7 +29,7 @@ const Login = () => {
   };
 
   const loginUser = async (userData) => {
-    const api = "http://localhost:2002/user/log";
+    const api = "https://prepbytesserverbackend.onrender.com/user/log";
     const response = await axios.post(api, userData);
     setResponseData(response.data);
 
