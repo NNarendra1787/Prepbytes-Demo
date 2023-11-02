@@ -1,5 +1,5 @@
 import React from "react";
-import Master from "../img/Masterhead(web).svg";
+// import Master from "../img/Masterhead(web).svg";
 import aws from "../img/aws-ed-start.webp";
 import future from "../img/future-skills-homepage.webp";
 import google from "../img/Google-launchpad.webp";
