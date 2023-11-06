@@ -104,6 +104,7 @@ imageprepbytes {
 
 .ArticelBoxs {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -119,4 +120,49 @@ imageprepbytes {
 
 .Box_Heading_Two {
     color: rgb(247, 128, 119);
+}
+
+@media screen and (min-width: 360px) and (max-width:760px) {
+    .ArticelBoxs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px auto;
+        width: 70vw;
+
+    }
+    .Box_Div_section{
+        width: 70vw;
+        box-shadow: 3px 0px 13px 1px grey;
+        margin: 12px 0px;
+    }
+    .Box_Image {
+        width: 40vw;
+        height: 20vh;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 1238px){
+    /* .ArticelBoxs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0px auto;
+        width: 80vw;
+
+    } */
+    .Box_Div_section{
+        width: 40vw;
+        box-shadow: 3px 0px 13px 1px grey;
+        margin: 12px 0px;
+    }
+    .Box_Image {
+        width: 40vw;
+        height: 20vh;
+    }
+
+    /* .DivMainFive{
+        position: relative;
+        bottom: 45vh;
+    } */
 }

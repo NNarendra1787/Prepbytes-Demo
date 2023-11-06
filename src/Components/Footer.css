@@ -1,0 +1,50 @@
+.Footer_First_DIv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Footer_Main_DIv{
+    padding: 40px;
+    margin-top: 20px;
+    background: #d9f5f9 0 0 no-repeat padding-box;
+}
+.Footer_Contact{
+    display: flex;
+    gap: 10px;
+    color: grey;
+    font-size: 15px;
+}
+.Footer_First_SubDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.HeadingHfour{
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
+}
+.facebookImage{
+    padding-left: 5px;
+}
+.FooterInterview{
+    color: grey;
+    font-size: 13px;
+    text-align: left;
+}
+.Footer_Second_SubDiv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: grey;
+}
+.Footer_Second_Policy{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: grey;
+}
+.FooterRefund{
+    padding-left: 10px;
+}

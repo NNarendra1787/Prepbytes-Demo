@@ -11,7 +11,11 @@ import JSPro from './DropComp/JSPro'
 import ReactPro from './DropComp/ReactPro'
 import NodePro from './DropComp/NodePro'
 import MERN from './DropComp/MERN'
-import MasterCom from './DropComp/MasterCom'
+// import MasterCom from './DropComp/MasterCom'
+import Cart from './Cart/Cart'
+import ElevationA from './DropComp/Elevation'
+import FullStackProgram from './DropComp/FullStack'
+import MCProgram from './DropComp/MasterPro'
 
 function Routering() {
   return (
@@ -20,7 +24,9 @@ function Routering() {
             <Route path="/" element={<HomePage />} />
             <Route path="/mocktest" element={<MockTest />} />
             <Route path="/videotutorial" element={<VideoTut />} />
-            <Route path='master-compitative-programing' element={<MasterCom />} />
+            <Route path='/master-compitative-programing' element={<MCProgram />} />
+            <Route path="/elevation" element={<ElevationA />} />
+            <Route path='/full-stack' element={<FullStackProgram />}/>
             {/* Project */}
             <Route path='/html' element={<HTMLPro />}/>
             <Route path='/css' element={<CSSPro />}/>
@@ -30,6 +36,7 @@ function Routering() {
             <Route path='/mern' element={<MERN />}/>
 
 
+            <Route path='/dashboard' element={<Cart />} />
             <Route path="/register" element={<Register />}/>
             <Route path="/login" element={<Login />}/>
         </Routes>

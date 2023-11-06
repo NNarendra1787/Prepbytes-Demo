@@ -7,15 +7,27 @@
 
 /* Navbar css  */
 
-.Name{
+.Name {
     background-color: #06b4ee;
     color: white;
-    font-size: 18px;
+    font-size: 21px;
     padding: 1px 10px;
     border-radius: 50%;
 }
-.name{
+
+.dop {
+    border-bottom: 1px solid gray;
+}
+
+.name {
     color: #00a6eb;
+}
+
+.stud {
+    padding: 0px 8px;
+    position: relative;
+    top: 9px;
+    height: 30px;
 }
 
 .MainNavbar {
@@ -66,6 +78,11 @@
     justify-content: space-evenly;
 }
 
+.Name-links {
+    position: relative;
+    bottom: 9px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -79,7 +96,7 @@
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 132px;
+    min-width: 190px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -115,6 +132,7 @@
 
 .HomeBox {
     display: flex;
+    flex-direction: row-reverse;
     width: 98.2vw;
     justify-content: space-evenly;
     align-items: center;
@@ -187,6 +205,7 @@
 .sponcers {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 85vw;
     padding: 0px 7%;
     margin-top: 20px;
@@ -648,6 +667,7 @@ select {
     text-align: left;
     width: 90%;
 }
+
 .card-four-right-box p {
     color: rgb(240, 119, 149);
     margin-left: 18px;
@@ -656,12 +676,394 @@ select {
     width: 80%;
     font-size: 20px;
 }
-.card-four-right-box img{
+
+.card-four-right-box img {
     position: absolute;
     top: 80px;
     right: 290px;
 }
+
 /* location icon */
-.locat{
+.locat {
     padding-left: 50px;
+}
+
+
+/* Dash board Page */
+
+.CartPage {
+    display: flex;
+    width: 98vw;
+}
+
+.CartLeft {
+    width: 16vw;
+    height: 100vh;
+    /* border-right: 2px solid skyblue; */
+    box-shadow: 1px 1px 5px 3px gray;
+}
+
+.Program {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 2%;
+}
+
+.Program h2 {
+    padding: 2px 3%;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.proIcon {
+    height: 30px;
+}
+
+.CartBox {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6% 0px;
+}
+
+.CartBox h3 {
+    color: #00a6eb;
+    text-align: left;
+}
+
+.CartItem {
+    display: flex;
+    width: 70vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 5% 0px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width:770px) {
+    .log img {
+        height: 10vh;
+        width: 30vw;
+    }
+
+    .AllHome {
+        height: 250vh;
+    }
+
+    .HomeBox {
+        display: flex;
+        flex-direction: column;
+        /* width: 90vw; */
+    }
+
+    .HomeLeft {
+        width: 80vw;
+        margin: 40px 0px;
+        position: relative;
+        right: 10%;
+    }
+
+    .imgs {
+        display: block;
+        max-width: 192%;
+        position: relative;
+        right: 45%;
+    }
+
+
+    .firstHead {
+        font-size: 1.5rem;
+    }
+
+    .secHead {
+        font-size: 1.3rem;
+    }
+
+    .thHead {
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+
+    .btn {
+        width: 180px;
+        font-size: 1rem;
+        padding: 10px;
+        position: absolute;
+        left: 23px;
+        /* margin: 5px 0px; */
+    }
+
+    .sponcers {
+        justify-content: flex-start;
+    }
+
+    .sponcers img {
+        width: 100px;
+    }
+
+    .Mid-left {
+        width: 30%;
+    }
+
+    .left-img {
+        opacity: 0.4;
+        width: 90vw;
+        height: 150vh;
+    }
+
+    .Mid-right-heading {
+        font-size: 25px;
+        width: 95vw;
+        text-align: left;
+        position: relative;
+        right: 48%;
+    }
+
+    .cardOne{
+        width: 80vw;
+        position: relative;
+        right: 45%;
+    }
+    .card-one-left-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+    .card-three-left-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+    .box{
+        width: 56vw;
+    }
+    .third-box{    
+        width: 56vw;
+    }
+    .card-one-left-box-text{
+        font-size: 1rem;
+        width: 45vw;
+    }
+    .card-three-left-box-text{
+        font-size: 1rem;
+        width: 45vw;
+    }
+    .card-right-arrow img{
+        width: 30vw;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .CardTwo{
+        width: 80vw;
+        position: relative;
+        right: 80%;
+    }
+    .card-two-right-box{
+        width: 56vw;
+    }
+    .card-four-right-box{
+        width: 56vw;
+    }
+
+    .left-Part img{
+        width: 30vw;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .card-two-right-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+    .card-four-right-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+
+    .card-two-right-box p{
+        font-size: 1rem;
+        width: 45vw;
+    }
+    .card-four-right-box p{
+        font-size: 1rem;
+        width: 45vw;
+    }
+    .card-two-right-box img{
+        position: absolute;
+        left: 46%;
+        top: 52%;
+    }
+    .card-four-right-box img{
+        position: absolute;
+        left: 46%;
+        top: 52%;
+    }
+
+    .locat img{
+        width: 80vw;
+        position: absolute;
+        left: 10px;
+    }
+    .Mid-right{
+        padding-right: 0px;
+    }
+    .Mid-Parent{
+        width: 80vw;
+    }
+
+    .Footer_Main_DIv{
+        position: relative;
+        top: 300px;
+    }
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1238px){
+    .HomeBox{
+        width: 98vw;
+    }
+    
+    .HomeLeft{
+        width: 40vw;
+    }
+    .HomeRight{
+        width: 40vw;
+    }
+
+    .firstHead{
+        font-size: 1.5rem;
+    }
+    .secHead{
+        font-size: 1.4rem;
+    }
+    .thHead{
+        font-size: 1.5rem;
+
+        line-height: 1.5;
+    }
+
+    .sponcers{
+        width: 83vw;
+    }
+
+    .Mid-left {
+        width: 30%;
+    }
+
+    .left-img {
+        opacity: 0.4;
+        width: 90vw;
+        height: 100vh;
+    }
+
+    .Mid-right-heading {
+        font-size: 25px;
+        width: 92vw;
+        text-align: left;
+        position: relative;
+        right: 48%;
+    }
+
+    .cardOne{
+        width: 80vw;
+        position: relative;
+        right: 45%;
+    }
+    .card-one-left-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+    .card-three-left-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+    .box{
+        width: 40vw;
+    }
+    .third-box{    
+        width: 40vw;
+    }
+    .card-one-left-box-text{
+        font-size: 1rem;
+        width: 30vw;
+    }
+    .card-three-left-box-text{
+        font-size: 1rem;
+        width: 30vw;
+    }
+    .card-right-arrow img{
+        width: 20vw;
+        position: relative;
+        top: 0px;
+    }
+
+    .CardTwo{
+        width: 80vw;
+        position: relative;
+        right: 80%;
+    }
+    .card-two-right-box{
+        width: 40vw;
+    }
+    .card-four-right-box{
+        width: 40vw;
+    }
+
+    .left-Part img{
+        width: 20vw;
+        position: relative;
+        top: 10px;
+        left: 47px;
+    }
+
+    .card-two-right-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+    .card-four-right-heading{
+        width: 40vw;
+        font-size: 1rem;
+    }
+
+    .card-two-right-box p{
+        font-size: 1rem;
+        width: 30vw;
+    }
+    .card-four-right-box p{
+        font-size: 1rem;
+        width: 30vw;
+    }
+    .third-box img{
+        position: absolute;
+    top: 63px;
+    left: -33px;
+    }
+    .card-two-right-box img{
+        position: absolute;
+        left: 50%;
+        top: 43%;
+    }
+    .card-four-right-box img{
+        position: absolute;
+        left: 50%;
+        top: 43%;
+    }
+
+    .locat img{
+        width: 80vw;
+        position: absolute;
+        left: 10px;
+    }
+    .Mid-right{
+        padding-right: 0px;
+    }
+    .Mid-Parent{
+        width: 80vw;
+    }
+}
+
+
+@media screen and (min-width: 1238px) and (max-width: 1360px) {
+    #myLInks {
+        width: 56vw;
+    }
 }

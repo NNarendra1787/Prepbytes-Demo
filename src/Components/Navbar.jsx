@@ -52,7 +52,7 @@ const Navbar = () => {
               </NavLink>
               <NavLink
                 exact
-                to="/mocktest"
+                to="/master-compitative-programing"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -61,7 +61,7 @@ const Navbar = () => {
               </NavLink>
               <NavLink
                 exact
-                to="/videotutorial"
+                to="/full-stack"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -70,7 +70,7 @@ const Navbar = () => {
               </NavLink>
               <NavLink
                 exact
-                to="/videotutorial"
+                to="/elevation"
                 className="nav-links"
                 activeClassName="active"
                 onClick={handleClick}
@@ -146,7 +146,7 @@ const Navbar = () => {
                 <div className="nav-item">
                   <NavLink
                     exact
-                    to="/videotutorial"
+                    to="/full-stack"
                     activeClassName="active"
                     className="nav-links"
                     onClick={handleClick}
@@ -160,7 +160,7 @@ const Navbar = () => {
             <section className="nav-item">
               <NavLink
                 exact
-                to="/videotutorial"
+                to="/elevation"
                 className="meet"
                 activeClassName="active"
                 onClick={handleClick}

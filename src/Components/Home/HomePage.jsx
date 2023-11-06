@@ -5,18 +5,23 @@ import future from "../img/future-skills-homepage.webp";
 import google from "../img/Google-launchpad.webp";
 import shelead from "../img/she-leads.webp";
 import DownPage from "./DownPage";
-import Navbar from "../Navbar";
+// import Navbar from "../Navbar";
 import SecHom from "./SecHom";
 import ScdHome from "./ScdHome";
+import Footer from "../Footer";
 // import clgBy from "../img/standingboy stairs_of_approach(web).svg"
 
 function HomePage() {
   return (
     <section className="AllHome">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="HomePage">
         <section className="BigHome">
           <section className="HomeBox">
+            
+            <div className="HomeRight">
+              <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/Masterhead(web).svg" alt="/" className="imgs" />
+            </div>
             <div className="HomeLeft">
               <div className="MidHead">
                 <h1 className="firstHead">Start your journey of success</h1>
@@ -27,10 +32,6 @@ function HomePage() {
                 Want to know how PrepBytes can help you?
               </h3>
               <button className="btn">Know More</button>
-            </div>
-            <div className="HomeRight">
-              <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/Masterhead(web).svg" alt="/" className="imgs" />
-              {/* <img src={Master} alt="/" className="imgs" /> */}
             </div>
           </section>
           <section className="sponcers">
@@ -44,6 +45,7 @@ function HomePage() {
       <DownPage />
       <SecHom />
       <ScdHome />
+      <Footer />
     </section>
   );
 }
