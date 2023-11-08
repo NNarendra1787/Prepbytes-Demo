@@ -1,13 +1,13 @@
 import React from 'react'
 import HtPro from "../img/Pro/MERN - Google Chrome 11_1_2023 12_10_11 PM.png"
 import "./Comp.css"
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
 
 function MERN() {
   return (
     <div>
-        {/* <Navbar /> */}
+        <Navbar />
       <section className="Projects">
         <h2>HTML BackTracking</h2>
         <section className="SidBox">

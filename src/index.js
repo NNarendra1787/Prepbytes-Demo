@@ -4,18 +4,18 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+// import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const client =
-  "AWbJ5zdw_OhrabzqXnsQCkVUIkel9Gd-9D6T7VASgTsHfdjN0NfV1yr-3MboCoNhbh6-oJLDa3ET93IO";
+// const client =
+//   "AWbJ5zdw_OhrabzqXnsQCkVUIkel9Gd-9D6T7VASgTsHfdjN0NfV1yr-3MboCoNhbh6-oJLDa3ET93IO";
 root.render(
   <React.StrictMode>
-    <PayPalScriptProvider options={{"client-id": client, currency: "USD", intent: "capture"}}>
+    {/* <PayPalScriptProvider options={{"client-id": client, currency: "USD", intent: "capture"}}> */}
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </PayPalScriptProvider>
+    {/* </PayPalScriptProvider> */}
   </React.StrictMode>
 );
 

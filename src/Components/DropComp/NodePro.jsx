@@ -1,13 +1,13 @@
 import React from 'react'
 import HtPro from "../img/Pro/Node-Pro - Google Chrome 11_1_2023 12_07_30 PM.png"
 import "./Comp.css"
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
 
 function NodePro() {
   return (
 <div>
-        {/* <Navbar /> */}
+        <Navbar />
       <section className="Projects">
         <h2>HTML BackTracking</h2>
         <section className="SidBox">

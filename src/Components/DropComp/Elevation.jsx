@@ -1,14 +1,15 @@
 import React from "react";
 // import Layout from "../../../Layout";
 import "./Comp.css";
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import image from "../img/Pro/PrepBytes Elevation Academy _ Full Stack Web Development - Google Chrome 11_4_2023 5_06_01 PM.png";
 import Footer from "../Footer";
+import ElevAppl from "./ElevAppl";
 
 const ElevationA = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="Elevation_Main_Div">
         <div>
           <div className="Elevation_First_Div">
@@ -189,6 +190,7 @@ const ElevationA = () => {
             </p>
           </div>
         </div>
+        <ElevAppl />
       </div>
       <Footer />
     </>

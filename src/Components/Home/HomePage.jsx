@@ -5,7 +5,7 @@ import future from "../img/future-skills-homepage.webp";
 import google from "../img/Google-launchpad.webp";
 import shelead from "../img/she-leads.webp";
 import DownPage from "./DownPage";
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import SecHom from "./SecHom";
 import ScdHome from "./ScdHome";
 import Footer from "../Footer";
@@ -14,7 +14,7 @@ import Footer from "../Footer";
 function HomePage() {
   return (
     <section className="AllHome">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="HomePage">
         <section className="BigHome">
           <section className="HomeBox">

@@ -1,12 +1,12 @@
 import React from "react";
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import DownPage from "../Home/DownPage";
 import { Link } from "react-router-dom";
 
 function VideoTut() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <DownPage />
       <section className="videoHead">
         <section className="videoHeadContainer">

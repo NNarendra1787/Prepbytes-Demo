@@ -1,13 +1,13 @@
 import React from 'react'
 import HtPro from "../img/Pro/Reminder-clock.png"
 import "./Comp.css"
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
 
 function JSPro() {
   return (
 <div>
-        {/* <Navbar /> */}
+        <Navbar />
       <section className="Projects">
         <h2>HTML BackTracking</h2>
         <section className="SidBox">

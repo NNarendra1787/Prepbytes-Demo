@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import Layout from "../../../Layout";
 import "./Comp.css";
 import DownPage from "../Home/DownPage";
 import Footer from "../Footer";
+import axios from "axios";
+import MastCart from "../Cart/MastCart";
+import Navbar from "../Navbar";
 
 const MCProgram = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://localhost:2002/user/check")
+    .then((res) => {
+      setData(res.data);
+      // setData(res.data.result);
+      console.log("This is the Response data", res.data);
+      console.log("This is the Response data by result", res.data.result);
+    });
+  }, [data]);
+
   return (
     <>
-    <DownPage />
+      <Navbar />
+      <DownPage />
       <div className="Main_Mater_Program">
         <div className="MCProgramMainDivFirst">
           <div>
@@ -184,7 +200,7 @@ const MCProgram = () => {
                   src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/coursePageNew/MCPWebp/Course+Feature+Section/Icons_Personalised+Program.webp"
                   alt="/"
                 />
-                <div >
+                <div>
                   <div className="Master-box-cont">
                     <h6 className="Master-mid-H6">Personalised Program</h6>
                   </div>
@@ -362,24 +378,33 @@ const MCProgram = () => {
         </div>
 
         <div className="SelectBatch">
-          {/* <hr></hr> */}
-          <div className="Select_Batch_Div">SELECT BATCH</div>
-
-          <div className="Select_Batch_Second_Div">
-            <div className="Select_Batch_Second">
-              1st December <br></br>{" "}
-              <span className="Span_Div">Enrolment start</span>
-            </div>
-            <div className="Select_Batch_Second">
-              15th December <br></br>{" "}
-              <span className="Span_Div">Enrolment start</span>
-            </div>
-          </div>
-
-          <div>
-            ₹25000 <br></br> <br></br>{" "}
-            <span className="Select_Batch_Second_Button">Enroll Now</span>
-          </div>
+          {data.filter((item)=> item.no === 1).map((item, ind) => (
+            <MastCart
+              no = {item.no}
+              title={item.title}
+              image={item.image}
+              description={item.description}
+              price={item.price}
+            />
+            // <div>
+            //   <div className="Select_Batch_Div">SELECT BATCH</div>
+            //   <div className="Select_Batch_Second_Div">
+            //     <div className="Select_Batch_Second">
+            //       <img src={item.image} alt="/" className="mastComp-img" />
+            //       1st December <br></br>
+            //       <span className="Span_Div">Enrolment start</span>
+            //     </div>
+            //     <div className="Select_Batch_Second">
+            //       15th December <br></br>
+            //       <span className="Span_Div">Enrolment start</span>
+            //     </div>
+            //   </div>
+            //   <div>
+            //     {item.price} <br></br> <br></br>
+            //     <span className="Select_Batch_Second_Button">Enroll Now</span>
+            //   </div>
+            // </div>
+          ))}
         </div>
       </div>
       <Footer />

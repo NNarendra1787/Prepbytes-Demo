@@ -207,6 +207,7 @@ h2 {
     /* -webkit-box-align: center; */
     align-items: center;
     justify-content: space-evenly;
+    width: 20vw;
 }
 
 .MiddlePart-left {
