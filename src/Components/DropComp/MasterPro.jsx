@@ -11,7 +11,7 @@ const MCProgram = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:2002/user/check")
+    axios.get("https://prepbytesserverbackend.onrender.com/user/check")
     .then((res) => {
       setData(res.data);
       // setData(res.data.result);

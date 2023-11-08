@@ -43,7 +43,7 @@ const AddToCart = (item) => {
     };
 
     const response = await fetch(
-      "http://localhost:2002/api/create-checkout-session",
+      "https://prepbytesserverbackend.onrender.com/api/create-checkout-session",
       {
         method: "POST",
         headers: headers,

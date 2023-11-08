@@ -14,7 +14,7 @@ const FullStackProgram = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:2002/user/check").then((res) => {
+    axios.get("https://prepbytesserverbackend.onrender.com/user/check").then((res) => {
       setData(res.data);
       console.log("This is the Response Data", res.data);
     });
