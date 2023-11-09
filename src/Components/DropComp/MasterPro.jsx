@@ -8,6 +8,9 @@ import MastCart from "../Cart/MastCart";
 import Navbar from "../Navbar";
 
 const MCProgram = () => {
+  const HandleDown = ()=>{
+    window.scrollTo(50,document.body.scrollHeight)
+  }
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -37,7 +40,7 @@ const MCProgram = () => {
                 Under The Guidance Of Top Competitive Programmers
               </span>{" "}
             </p>
-            <button className="CourseReBtn">Enrol Now</button>
+            <button className="CourseReBtn" onClick={HandleDown}>Enrol Now</button>
           </div>
           <div>
             <img

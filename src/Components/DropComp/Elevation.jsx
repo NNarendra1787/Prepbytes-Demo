@@ -7,6 +7,9 @@ import Footer from "../Footer";
 import ElevAppl from "./ElevAppl";
 
 const ElevationA = () => {
+  const HandleDown = ()=>{
+    window.scrollTo(0, document.body.scrollHeight)
+  }
   return (
     <>
       <Navbar />
@@ -27,7 +30,7 @@ const ElevationA = () => {
                 <li>Job Guarantee</li>
               </ul>
               <div>
-                <button className="Elevation_First_Div_Button">
+                <button className="Elevation_First_Div_Button" onClick={HandleDown}>
                   Apply Now
                 </button>
                 <button className="Elevation_First_Div_Button">

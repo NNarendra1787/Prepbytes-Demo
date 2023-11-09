@@ -14,6 +14,10 @@ import Footer from "../Footer";
 
 function HomePage() {
   // const navi = useNavigate()
+  const handleDown = ()=>{
+    window.scrollTo(0,document.body.scrollHeight)
+  } 
+
   return (
     <section className="AllHome">
       <Navbar />
@@ -33,7 +37,7 @@ function HomePage() {
               <h3 className="thHead">
                 Want to know how PrepBytes can help you?
               </h3>
-              <button className="btn">Know More</button>
+              <button className="btn" onClick={ handleDown}>Know More</button>
             </div>
           </section>
           <section className="sponcers">

@@ -98,7 +98,7 @@ const Cart = () => {
                           <p className="leftPart-top">{cartItem.date}</p>
                           <p className="leftPart-bottom">{cartItem.date1}</p>
                         </div>
-                        <hr className="amHR" />
+                        {/* <hr className="amHR" />
                         <div className="MiddlePart-Center">
                           <p className="midPart-top">{cartItem.pip}</p>
                           <p className="midPart-bottom">{cartItem.part}</p>
@@ -107,7 +107,7 @@ const Cart = () => {
                         <div className="RightPart-right">
                           <p className="leftPart-top">{cartItem.time}</p>
                           <p className="leftPart-bottom">{cartItem.due}</p>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   );
