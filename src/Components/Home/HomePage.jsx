@@ -9,9 +9,11 @@ import Navbar from "../Navbar";
 import SecHom from "./SecHom";
 import ScdHome from "./ScdHome";
 import Footer from "../Footer";
+// import { useNavigate } from "react-router-dom";
 // import clgBy from "../img/standingboy stairs_of_approach(web).svg"
 
 function HomePage() {
+  // const navi = useNavigate()
   return (
     <section className="AllHome">
       <Navbar />

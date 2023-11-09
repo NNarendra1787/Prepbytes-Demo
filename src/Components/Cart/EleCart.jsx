@@ -60,22 +60,52 @@ const EleCart = (item) => {
   };
   return (
     <div>
-      <div>
-        <h3>{item.description}</h3>
-        <button
-          onClick={() => {
-            makePayment(no, item, title, description, image);
-            handleCart(no, title, image, description);
-          }}
-        >
-          {item.price}
-        </button>
-      </div>
-      <div>
-        <img src={item.image} alt="/" />
-      </div>
+      <section className="Register-Ele">
+        <section className="Register-mid-Ele">
+          <h2 className="Register-Head1">Payment Plans</h2>
+          <h3 className="Register-Head2">
+            Choose a payment plan sutable you need
+          </h3>
+          <div className="Elev-Card">
+            <img src={image} className="hidImg" alt="" />
+            <div className="Elve-mid-card">
+              <h3>Pay Upfront*</h3>
+              <img
+                src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/coursePageNew/zenithWebp/tag4-01.webp"
+                alt="/"
+              />
+            </div>
+            <div className="Elve-Pay">
+              <h3>Pay Now</h3>
+              <h3 className="price">70,000</h3>
+            </div>
+            <hr />
+            <div className="lastPay">
+              <h3>EMI Starting at</h3>
+              <h3>5833/Month</h3>
+            </div>
+          </div>
+          <button
+            className="btn2"
+            onClick={() => {
+              makePayment(no, item, title, description, image);
+              handleCart(no, title, image, description);
+            }}
+          >
+            Register
+          </button>
+        </section>
+      </section>
     </div>
   );
 };
 
 export default EleCart;
+
+{
+  /* <button
+        
+        >
+          
+        </button> */
+}

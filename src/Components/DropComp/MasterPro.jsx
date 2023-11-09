@@ -377,7 +377,7 @@ const MCProgram = () => {
           ></img>
         </div>
 
-        <div className="SelectBatch">
+        <div className="select">
           {data.filter((item)=> item.no === 1).map((item, ind) => (
             <MastCart
               no = {item.no}

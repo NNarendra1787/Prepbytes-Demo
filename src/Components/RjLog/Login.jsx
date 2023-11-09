@@ -11,6 +11,7 @@ import clg from "../img/college.webp";
 import ler from "../img/learning.webp";
 import social from "../img/social.webp";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -176,6 +177,7 @@ const Login = () => {
             </section>
           </div>
         </section>
+        <Footer />
       </div>
     </section>
   );

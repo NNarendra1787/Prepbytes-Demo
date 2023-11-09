@@ -16,12 +16,14 @@ import Cart from './Cart/Cart'
 import ElevationA from './DropComp/Elevation'
 import FullStackProgram from './DropComp/FullStack'
 import MCProgram from './DropComp/MasterPro'
+import SecHom from './Home/SecHom'
 
 function Routering() {
   return (
     <div>
         <Routes >
             <Route path="/" element={<HomePage />} />
+            <Route path="sec" element={<SecHom />} />
             <Route path="/mocktest" element={<MockTest />} />
             <Route path="/videotutorial" element={<VideoTut />} />
             <Route path='/master-compitative-programing' element={<MCProgram />} />

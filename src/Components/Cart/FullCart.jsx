@@ -63,6 +63,7 @@ const FullCart = (item) => {
   };
   return (
     <div>
+      <img src={image} alt="" className="mastComp-img"/>
       <div className="Enroll_Fees">{price}</div>
       <div className="Enroll_Now_Batch">
         <button className="Enroll_Now_Batch_Button" onClick={()=>{makePayment(no,item,title,description,image);handleCart(no, title, image, description)}}>Enroll Now</button>

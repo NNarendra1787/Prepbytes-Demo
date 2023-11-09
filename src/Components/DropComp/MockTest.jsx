@@ -47,7 +47,7 @@ function MockTest() {
             <section className="FeaturedPast">
               <p className="FeaturePastPara">Past Mock Tests</p>
               <section className="FeaturedPastContainer">
-                {data.map((item, ind) => (
+                {data.slice(0,14).map((item, ind) => (
                   <AddToCart no={item.no} 
                   image={item.image}
                   title={item.title} 

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import sittingBoy from "../img/register-img.webp";
 import logo from "../img/logo.webp";
+import Footer from "../Footer";
 
 // for shortpage
 import std from "../img/students.webp";
@@ -242,17 +243,6 @@ function Register() {
                           placeholder="College"
                         />
                       </div>
-                      {/* year */}
-                      {/* <input
-                      type="number"
-                      name="year"
-                      required="required"
-                      autoComplete="year"
-                      autoCorrect="year"
-                      value={year}
-                      onChange={HandleYear}
-                      placeholder="Year"
-                    /> */}
                       <select
                         name="year"
                         required="required"
@@ -298,6 +288,7 @@ function Register() {
             </section>
           </div>
         </section>
+        <Footer />
       </div>
     </section>
   );

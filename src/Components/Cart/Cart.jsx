@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-// import Navbar from "../Navbar";
+import Navbar from "../Navbar";
 import "../Drop.css";
 // import { Link } from "react-router-dom";
 
@@ -13,7 +13,7 @@ const Cart = () => {
 
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <section className="CartPage">
         <div className="CartLeft">
           <div className="CartBox">
@@ -55,7 +55,9 @@ const Cart = () => {
           {productCount === 0 ? (
             <div>
               <div className="Program">
-                <h2>Courses <span>{cartCount}</span></h2>
+                <h2>
+                  Courses <span>{cartCount}</span>
+                </h2>
                 <h2>Track/Program(0)</h2>
               </div>
               <div>
@@ -107,9 +109,6 @@ const Cart = () => {
                           <p className="leftPart-bottom">{cartItem.due}</p>
                         </div>
                       </div>
-                      {/* <div className="MockTestCard__bottom">
-                    <button className="bottom--button">Test Now</button>
-                  </div> */}
                     </div>
                   );
                 })}

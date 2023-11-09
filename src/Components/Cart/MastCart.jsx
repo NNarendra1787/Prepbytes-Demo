@@ -64,7 +64,7 @@ const MastCart = (item) => {
   };
 
   return (
-    <div>
+    <div className="SelectBatch">
       <div className="Select_Batch_Div">SELECT BATCH</div>
 
       <div className="Select_Batch_Second_Div">

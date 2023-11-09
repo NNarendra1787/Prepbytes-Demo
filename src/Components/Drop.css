@@ -19,6 +19,11 @@
     border-bottom: 1px solid gray;
 }
 
+.meet{
+    text-decoration: none;
+    color: black;
+}
+
 .name {
     color: #00a6eb;
 }
@@ -96,7 +101,7 @@
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 190px;
+    min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -261,7 +266,7 @@
     position: absolute;
     /* top: 0px; */
     /* left: 0px; */
-    height: 100vh;
+    height: fit-content;
     width: 98.9vw;
     /* opacity: 0.5; */
     /* z-index: -1; */
@@ -270,6 +275,7 @@
 
 .Register-Container {
     display: flex;
+    /* flex-wrap: wrap; */
     width: 80vw;
     margin: 0px auto;
     justify-content: center;
@@ -340,6 +346,7 @@
     margin: 35px 40px 13%;
     padding: 0 10px;
     background-color: #fffffe;
+    height: fit-content;
 }
 
 .Register-top {
@@ -480,6 +487,41 @@ select {
 
 .checkbox span {
     color: #06b4ee;
+}
+
+@media all and (min-width: 320px) and (max-width: 1024px) {
+    .Register{
+        height: fit-content;
+    }
+    .Register-Container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Register-Container-left{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+    .Register-imge img{
+        width: 25vw;
+    }
+    .inforbox{
+        display: flex;
+        width: fit-content;
+        margin-top: 0px;
+    }
+    .imgge{
+        display: none;
+    }
+    .Achivers{
+        position: relative;
+        top: 0px;
+    }
+    .Register-container-right{
+        position: relative;
+        top: 80px;
+    }
 }
 
 /* mid page is sstarting */

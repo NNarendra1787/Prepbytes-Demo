@@ -58,15 +58,22 @@ const ElevationA = () => {
           <div>
             <h1>How will you reach to you dream job?</h1>
           </div>
-          <section >
+          <section>
             <div className="Elevation-Dream">
               <div className="Ele-left">
                 <span className="Ele-1">1</span>
                 <h3 className="Ele-left-1">Application & Shortlisting</h3>
               </div>
               <div className="Ele-right">
-                <span>Apply, fill the form &amp; wait till we review your application. You will be selected based on the eligibility criteria (2023, 2022 &amp; 2021 passouts)</span>
-                <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/Application%2B%2BShortlisting.webp" alt="/" />
+                <span>
+                  Apply, fill the form &amp; wait till we review your
+                  application. You will be selected based on the eligibility
+                  criteria (2023, 2022 &amp; 2021 passouts)
+                </span>
+                <img
+                  src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/Application%2B%2BShortlisting.webp"
+                  alt="/"
+                />
               </div>
             </div>
             <div className="Elevation-Dream">
@@ -75,8 +82,14 @@ const ElevationA = () => {
                 <h3 className="Ele-left-2">Attend Free Webinar</h3>
               </div>
               <div className="Ele-right">
-                <span>Go through the free classes and learn the important concepts while understanding how the program unfolds.</span>
-                <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/5%2BDays%2BFree%2BClass.webp" alt="/" />
+                <span>
+                  Go through the free classes and learn the important concepts
+                  while understanding how the program unfolds.
+                </span>
+                <img
+                  src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/5%2BDays%2BFree%2BClass.webp"
+                  alt="/"
+                />
               </div>
             </div>
             <div className="Elevation-Dream">
@@ -85,8 +98,14 @@ const ElevationA = () => {
                 <h3 className="Ele-left-3">Batch Commenenment</h3>
               </div>
               <div className="Ele-right">
-                <span>Embark on your journey of success once you receive the offer letter for successful enrolment.</span>
-                <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/Complete%2BEnrollment%2B.webp" alt="/" />
+                <span>
+                  Embark on your journey of success once you receive the offer
+                  letter for successful enrolment.
+                </span>
+                <img
+                  src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/Complete%2BEnrollment%2B.webp"
+                  alt="/"
+                />
               </div>
             </div>
             <div className="Elevation-Dream">
@@ -95,8 +114,14 @@ const ElevationA = () => {
                 <h3 className="Ele-left-4">7 Months Program</h3>
               </div>
               <div className="Ele-right">
-                <span>You have now signed up for a learning-filled journey of 7 months that ends with you being placed in your dream company.</span>
-                <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/4%2BMonths%2BPrograms.webp" alt="/" />
+                <span>
+                  You have now signed up for a learning-filled journey of 7
+                  months that ends with you being placed in your dream company.
+                </span>
+                <img
+                  src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/4%2BMonths%2BPrograms.webp"
+                  alt="/"
+                />
               </div>
             </div>
             <div className="Elevation-Dream">
@@ -106,8 +131,14 @@ const ElevationA = () => {
               </div>
               {/* <hr className="hrr" /> */}
               <div className="Ele-right">
-                <span>The program comes with interview opportunities and  a placement guarantee of minimum 5 LPA.</span>
-                <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/Interview%2BOpportunities%2B.webp" alt="/" />
+                <span>
+                  The program comes with interview opportunities and a placement
+                  guarantee of minimum 5 LPA.
+                </span>
+                <img
+                  src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/elevation-academy/Images/Interview%2BOpportunities%2B.webp"
+                  alt="/"
+                />
               </div>
             </div>
           </section>
@@ -191,6 +222,7 @@ const ElevationA = () => {
           </div>
         </div>
         <ElevAppl />
+        
       </div>
       <Footer />
     </>

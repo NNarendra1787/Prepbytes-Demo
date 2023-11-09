@@ -9,30 +9,30 @@ function MERN() {
     <div>
         <Navbar />
       <section className="Projects">
-        <h2>HTML BackTracking</h2>
+        <h2>MERN E-Commerce</h2>
         <section className="SidBox">
           <div className="sideImg">
             <img src={HtPro} alt="/" />
           </div>
           <div className="sideList">
             <ol>
-                <li>Importing an Image with help of &lt;img&gt;</li>
-                <li>Basic Information about list type like ul and ol tags</li>
-                <li>Where inputing the style of list where make differnt type of list</li>
-                <li>With the different type of list</li>
-                <li>Differenct type of border and differnet with are there</li>
-                <li>Different type of Heading and paragragh tage are there</li>
-                <li>Where we are using ther br and  underline tage and also many more tag</li>
+                <li>Importing an Image with help of &lt;img&gt; With the help of backend and storing the information on backend</li>
+                <li>Advance using the functionality of react and also node and basice of mongobd</li>
+                <li>Coursole slicder of advertisement and product that are the feaured or in new offers</li>
+                <li>Add to cart functionality and payment getway</li>
+                <li>Paymayent getway with the help of paypal</li>
+                <li>React Reduc and routing all those thing are using for this project</li>
+                <li>Where we are using payment getway and many mmore functinality are there</li>
             </ol>
           </div>
         </section>
         <section className="Infromative">
         <h3>Hear Is the information about the project</h3>
-        <p>In This project we made many things with the help of HTML tag  and elements. This is the Backtracking project in this project i made many things where the help of it we exploring the different type of the heading which will present in the html. that heading am using in my project for seating the text and the with that help to make differnt type of ui desigining</p>
-        <p>In This project we having the imge tag and that image tag is using for importing the images for our project and handling the size of image and many more</p>
-        <p>At this project we using different type of list that we having and we learning in our HTML course that like unorderd and orderd list and description list that list are using for the differnt things to for the disinging the page</p>
-        <p> we also using the differnt type of heading and paragragh tag and we using for basic styling br tag and strong tag br tag is using for brak and strong tag is using for the bold to the text and for italic we are using the em tag and all those using we made this project</p>
-        <p>This is the project that we madeing using all those the this that i menton on top for visitin this project you can go throw with this link <span><Link to="https://nnarendra1787.github.io/projectHtml/" >Backtraking Project</Link></span> </p>
+        <p>In This project or Ecommerce app we are manking many more functionlity and where we can see the mobile laptops speaker and one store i there in that store mouse keyboard many mobile and also the differnt page and available for wher the page of mobile phones and lpatops and also the scroller for differnt laptop and many thing are there and many more things to buy</p>
+        <p>On the Store page there are many product are availe where ther differnt types of mobile and where in mobile ther are three differnt type of mobile which are vivo and apple and redmi anre ther mobile are availe on ther mobile page and mouse keyboard tv and and differnt companys laptop are there</p>
+        <p>On Laptop page there are many thing like many companys laptos are there and you also can see the information about laptop from clicking on the title and you can also add to cart the product from that page</p>
+        <p>Also login and signup functinality is avaliable whenever your not register on server you will never got the access for buying tose product or check the cart</p>
+        <p>This is the project that we madeing using all those the this that i menton on top for visitin this project you can go throw with this link <span><Link to="https://splendorous-fox-dcef47.netlify.app/" >E-Commerce Project</Link></span> </p>
         </section>
       </section>
     </div>
