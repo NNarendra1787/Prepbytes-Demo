@@ -19,7 +19,7 @@
     border-bottom: 1px solid gray;
 }
 
-.meet{
+.meet {
     text-decoration: none;
     color: black;
 }
@@ -260,7 +260,7 @@
 }
 
 /* Register and Login page Css Start From Hear */
-.Register {
+.Register{
     background: url('./img/blue-background.webp')no-repeat center center/cover;
     content: "";
     position: absolute;
@@ -489,38 +489,121 @@ select {
     color: #06b4ee;
 }
 
-@media all and (min-width: 320px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1528px) {
     .Register{
-        height: fit-content;
+        width: 97.9vw;
     }
     .Register-Container{
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    .Register-Container-left{
+        width: 42vw;
+    }
+    .Register-imge{
+        width: 20vw;
+    }
+}
+
+@media all and (min-width: 760px) and (max-width: 1024px) {
+    .Register {
+        height: fit-content;
+        width: 97.9vw;
+    }
+
+    .Register-Container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .Register-Container-left{
+
+    .Register-Container-left {
         display: flex;
         flex-direction: column;
         height: 30vh;
     }
-    .Register-imge img{
-        width: 25vw;
+
+    .Register-imge img {
+        width: 85vw;
+        height: 32vh;
     }
-    .inforbox{
+
+    .inforbox {
         display: flex;
         width: fit-content;
+        /* flex-wrap: wrap; */
         margin-top: 0px;
     }
-    .imgge{
+
+    .imgge {
         display: none;
     }
-    .Achivers{
+
+    .Achivers {
         position: relative;
         top: 0px;
     }
-    .Register-container-right{
+
+    .Register-container-right {
         position: relative;
         top: 80px;
+        width: 60vw;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 760px) {
+    .Register {
+        height: fit-content;
+    }
+
+    .Register-Container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Register-Container-left {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .Register-imge img {
+        width: 85vw;
+        height: 32vh;
+        position: relative;
+        top: 95px;
+    }
+
+    .inforbox {
+        /* display: flex; */
+        height: fit-content;
+        width: fit-content;
+        flex-wrap: wrap;
+        /* margin-top: 0px; */
+        position: relative;
+        top: 78px;
+        left: 30%;
+    }
+
+    .imgge {
+        display: none;
+    }
+
+    .Achivers {
+        position: relative;
+        top: 0px;
+    }
+
+    .Register-container-right {
+        position: relative;
+        top: 240px;
+        width: 85vw;
+        left: -60px;
+    }
+    .form-title{
+        font-size: 18px;
     }
 }
 
@@ -861,129 +944,147 @@ select {
         right: 48%;
     }
 
-    .cardOne{
+    .cardOne {
         width: 80vw;
         position: relative;
         right: 45%;
     }
-    .card-one-left-heading{
+
+    .card-one-left-heading {
         width: 40vw;
         font-size: 1rem;
     }
-    .card-three-left-heading{
+
+    .card-three-left-heading {
         width: 40vw;
         font-size: 1rem;
     }
-    .box{
+
+    .box {
         width: 56vw;
     }
-    .third-box{    
+
+    .third-box {
         width: 56vw;
     }
-    .card-one-left-box-text{
+
+    .card-one-left-box-text {
         font-size: 1rem;
         width: 45vw;
     }
-    .card-three-left-box-text{
+
+    .card-three-left-box-text {
         font-size: 1rem;
         width: 45vw;
     }
-    .card-right-arrow img{
+
+    .card-right-arrow img {
         width: 30vw;
         position: relative;
         bottom: 30px;
     }
 
-    .CardTwo{
+    .CardTwo {
         width: 80vw;
         position: relative;
         right: 80%;
     }
-    .card-two-right-box{
-        width: 56vw;
-    }
-    .card-four-right-box{
+
+    .card-two-right-box {
         width: 56vw;
     }
 
-    .left-Part img{
+    .card-four-right-box {
+        width: 56vw;
+    }
+
+    .left-Part img {
         width: 30vw;
         position: relative;
         bottom: 30px;
     }
 
-    .card-two-right-heading{
-        width: 40vw;
-        font-size: 1rem;
-    }
-    .card-four-right-heading{
+    .card-two-right-heading {
         width: 40vw;
         font-size: 1rem;
     }
 
-    .card-two-right-box p{
+    .card-four-right-heading {
+        width: 40vw;
+        font-size: 1rem;
+    }
+
+    .card-two-right-box p {
         font-size: 1rem;
         width: 45vw;
     }
-    .card-four-right-box p{
+
+    .card-four-right-box p {
         font-size: 1rem;
         width: 45vw;
     }
-    .card-two-right-box img{
-        position: absolute;
-        left: 46%;
-        top: 52%;
-    }
-    .card-four-right-box img{
+
+    .card-two-right-box img {
         position: absolute;
         left: 46%;
         top: 52%;
     }
 
-    .locat img{
+    .card-four-right-box img {
+        position: absolute;
+        left: 46%;
+        top: 52%;
+    }
+
+    .locat img {
         width: 80vw;
         position: absolute;
         left: 10px;
     }
-    .Mid-right{
+
+    .Mid-right {
         padding-right: 0px;
     }
-    .Mid-Parent{
+
+    .Mid-Parent {
         width: 80vw;
     }
 
-    .Footer_Main_DIv{
+    .Footer_Main_DIv {
         position: relative;
         top: 300px;
     }
 
 }
 
-@media screen and (min-width: 760px) and (max-width: 1238px){
-    .HomeBox{
+@media screen and (min-width: 760px) and (max-width: 1238px) {
+    .HomeBox {
         width: 98vw;
     }
-    
-    .HomeLeft{
-        width: 40vw;
-    }
-    .HomeRight{
+
+    .HomeLeft {
         width: 40vw;
     }
 
-    .firstHead{
+    .HomeRight {
+        width: 40vw;
+    }
+
+    .firstHead {
         font-size: 1.5rem;
     }
-    .secHead{
+
+    .secHead {
         font-size: 1.4rem;
     }
-    .thHead{
+
+    .thHead {
         font-size: 1.5rem;
 
         line-height: 1.5;
     }
 
-    .sponcers{
+    .sponcers {
         width: 83vw;
     }
 
@@ -1005,100 +1106,116 @@ select {
         right: 48%;
     }
 
-    .cardOne{
+    .cardOne {
         width: 80vw;
         position: relative;
         right: 45%;
     }
-    .card-one-left-heading{
+
+    .card-one-left-heading {
         width: 40vw;
         font-size: 1rem;
     }
-    .card-three-left-heading{
+
+    .card-three-left-heading {
         width: 40vw;
         font-size: 1rem;
     }
-    .box{
+
+    .box {
         width: 40vw;
     }
-    .third-box{    
+
+    .third-box {
         width: 40vw;
     }
-    .card-one-left-box-text{
+
+    .card-one-left-box-text {
         font-size: 1rem;
         width: 30vw;
     }
-    .card-three-left-box-text{
+
+    .card-three-left-box-text {
         font-size: 1rem;
         width: 30vw;
     }
-    .card-right-arrow img{
+
+    .card-right-arrow img {
         width: 20vw;
         position: relative;
         top: 0px;
     }
 
-    .CardTwo{
+    .CardTwo {
         width: 80vw;
         position: relative;
         right: 80%;
     }
-    .card-two-right-box{
-        width: 40vw;
-    }
-    .card-four-right-box{
+
+    .card-two-right-box {
         width: 40vw;
     }
 
-    .left-Part img{
+    .card-four-right-box {
+        width: 40vw;
+    }
+
+    .left-Part img {
         width: 20vw;
         position: relative;
         top: 10px;
         left: 47px;
     }
 
-    .card-two-right-heading{
-        width: 40vw;
-        font-size: 1rem;
-    }
-    .card-four-right-heading{
+    .card-two-right-heading {
         width: 40vw;
         font-size: 1rem;
     }
 
-    .card-two-right-box p{
+    .card-four-right-heading {
+        width: 40vw;
+        font-size: 1rem;
+    }
+
+    .card-two-right-box p {
         font-size: 1rem;
         width: 30vw;
     }
-    .card-four-right-box p{
+
+    .card-four-right-box p {
         font-size: 1rem;
         width: 30vw;
     }
-    .third-box img{
+
+    .third-box img {
         position: absolute;
-    top: 63px;
-    left: -33px;
+        top: 63px;
+        left: -33px;
     }
-    .card-two-right-box img{
-        position: absolute;
-        left: 50%;
-        top: 43%;
-    }
-    .card-four-right-box img{
+
+    .card-two-right-box img {
         position: absolute;
         left: 50%;
         top: 43%;
     }
 
-    .locat img{
+    .card-four-right-box img {
+        position: absolute;
+        left: 50%;
+        top: 43%;
+    }
+
+    .locat img {
         width: 80vw;
         position: absolute;
         left: 10px;
     }
-    .Mid-right{
+
+    .Mid-right {
         padding-right: 0px;
     }
-    .Mid-Parent{
+
+    .Mid-Parent {
         width: 80vw;
     }
 }
